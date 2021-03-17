@@ -1,0 +1,59 @@
+@import "config";
+@import "navbar";
+@import "buttons";
+
+.header-section {
+  height: 90vh;
+  width: 100%;
+  color: $light;
+}
+.bg-poly {
+  background-color: $primary-color;
+  clip-path: polygon(100% 0, 100% 75%, 10% 100%, 0 85%, 0 0);
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  width: 80%;
+  margin: auto;
+  // z-index: -1;
+}
+.intro-text {
+  // background-color: brown;
+  position: relative;
+  left: 10%;
+  padding-right: 10%;
+  h1 {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+}
+.intro-image {
+  z-index: -1;
+  // background-color: #fff;
+  position: relative;
+  top: 5%;
+  right: 10%;
+  width: 40vw;
+  img {
+    // height: 150vh;
+    transform: rotate(-8deg);
+    // top: 10%;
+    // left: 40%;
+  }
+}
