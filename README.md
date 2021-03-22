@@ -1,4 +1,4 @@
-##SaaS Platform Website
+# SaaS Platform Website
 
 Built a simple homepage hero section for practice purposes. Built with HTML/SCSS.
 
